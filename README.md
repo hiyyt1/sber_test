@@ -41,5 +41,5 @@ python -m src.evaluate
 export TELEGRAM_BOT_TOKEN="твой_токен"
 python app.py
 
-<img width="847" height="641" alt="image" src="https://github.com/user-attachments/assets/f9227a84-db8b-4306-b3c9-b07bf52840cd" />
+
 
