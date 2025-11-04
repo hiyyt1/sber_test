@@ -1,0 +1,11 @@
+transformers
+sentence-transformers
+faiss-cpu
+rank-bm25
+numpy
+pandas
+scikit-learn
+pyyaml
+torch
+python-telegram-bot==21.6
+openai>=1.40.0

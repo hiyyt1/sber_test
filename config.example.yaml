@@ -1,0 +1,22 @@
+
+embedder: "intfloat/multilingual-e5-base"
+device: "cpu"  # или "cuda"
+
+bm25_topk: 60
+dense_topk: 60
+rrf_k: 60  
+confidence_threshold: 0.58  
+
+use_reranker: true
+reranker_model: "BAAI/bge-reranker-base"
+reranker_topk_after: 5
+
+use_llm_validation: true
+llm_validation_threshold: 0.6
+
+llm:
+  provider: openrouter
+  model: deepseek/deepseek-chat
+  api_key: ""         
+  base_url: "https://openrouter.ai/api/v1"
+  request_timeout: 12
