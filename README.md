@@ -19,8 +19,6 @@ python -m venv venv
 source venv/bin/activate
 
 # 2. Зависимости
-pip install --upgrade pip
-pip install --no-cache-dir torch --index-url https://download.pytorch.org/whl/cpu
 pip install -r requirements.txt
 
 # 3. Настройка
