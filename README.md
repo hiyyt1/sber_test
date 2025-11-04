@@ -21,7 +21,7 @@ source venv/bin/activate
 
 # 2️⃣ Установка зависимостей
 pip install --upgrade pip
-pip install --no-cache-dir torch==2.3.1 --index-url https://download.pytorch.org/whl/cpu
+pip install --no-cache-dir torch --index-url https://download.pytorch.org/whl/cpu
 pip install -r requirements.txt
 
 # 3️⃣ Настройка конфигурации
@@ -41,5 +41,5 @@ python -m src.evaluate
 export TELEGRAM_BOT_TOKEN="твой_токен"
 python app.py
 
-![Архитектура пайплайна](dbc39f6c-8a49-44f6-9dc4-a8a3c72588e7.png)
+![Архитектура пайплайна]((https://github.com/hiyyt1/sber_test/blob/main/dbc39f6c-8a49-44f6-9dc4-a8a3c72588e7.png))
 
