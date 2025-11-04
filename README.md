@@ -41,5 +41,5 @@ python -m src.evaluate
 export TELEGRAM_BOT_TOKEN="твой_токен"
 python app.py
 
-![Архитектура пайплайна]((https://github.com/hiyyt1/sber_test/blob/main/dbc39f6c-8a49-44f6-9dc4-a8a3c72588e7.png))
+![Архитектура пайплайна](https://github.com/hiyyt1/sber_test/blob/main/dbc39f6c-8a49-44f6-9dc4-a8a3c72588e7.png)
 
